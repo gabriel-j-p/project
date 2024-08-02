@@ -3,26 +3,30 @@
 	padding: 0;
 }
 #topo{
-	height: 70px;
-	background: orange;
+	height: 100px;
+	background: red;
+	font-size: 70px;
+	font-weight: 100;
+	font-style: italic;
 }
 #menu{
-	background-color: rgba(0,0,255,0.3);
+	background-color: white(0,0,255,0.3);
 }
 #menu ul, li{
 	display: inline-table;
-	padding: 20px 30px;
+	padding: 10px 30px;
+	background-color: white;
 	cursor: pointer;
 }
 #menu ul li a{
 	text-decoration: nome;
-	color: white;
+	color: red;
 }
 #menu ul li:hover{
-	background-color: rgba(0,0,0,0.5);
+	background-color: (0,0,0,0.5);
 }
 #conteudo{
-	background-color: gray;
+	background-color: black;
 	min-height: 70px;
 }
 #slider {
@@ -75,4 +79,11 @@ img{
 	width: 10cm;
 	height: 12cm;
 	object-fit: contain;
+}
+.slogan-image {
+    float: left;
+    height: 130px;
+    width: 130px;
+    margin: 30px;
+    border-radius: 50%;
 }
